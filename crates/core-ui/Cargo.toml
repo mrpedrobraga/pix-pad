@@ -3,6 +3,9 @@ name = "core-ui"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+type = "staticlib"
+
 [dependencies]
 embedded-graphics = "0.8.1"
 # heapless provides fixed-capacity vectors and strings without a dynamic memory allocator (heap)
